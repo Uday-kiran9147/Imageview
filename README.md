@@ -6,11 +6,13 @@ This is a Flutter-based gallery app that displays images in a grid view, with zo
 
 - Image grid display with pagination.
 - Pull-to-refresh functionality.
-- Zoomable image viewer with `photo_view` package.
+- Infinite Scrolling.
+- Zoomable Image feature with `photo_view` package.
 - Image caching using `CachedNetworkImage`.
 - State management using `BLoC` pattern.
 - Clean code architecture for improved readability and maintainability.
-
+- Show images in a grid or list format.
+- Implement loading and error states with appropriate UI feedback.
 ## Prerequisites
 
 - Flutter SDK installed (https://flutter.dev/docs/get-started/install).

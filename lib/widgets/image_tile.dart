@@ -1,7 +1,6 @@
 
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:imageview/widgets/cache_manager.dart';
 
 class ImageTile extends StatelessWidget {
   const ImageTile({
@@ -26,7 +25,7 @@ class ImageTile extends StatelessWidget {
               color: Colors.red[100],
             ),
             child: CachedNetworkImage(
-              cacheManager: CustomCacheManager.instance,
+              key: UniqueKey(),
               fadeInDuration: Duration(milliseconds: 100),
               fadeInCurve: Curves.ease,
               imageUrl: image['download_url'],
