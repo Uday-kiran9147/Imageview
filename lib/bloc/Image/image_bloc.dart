@@ -19,7 +19,7 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
   @override
   void onChange(Change<ImageState> change) {
     super.onChange(change);
-    print(change);
+    // print(change);
   }
 
   void _onFetchImages(FetchImages event, Emitter<ImageState> emit) async {
