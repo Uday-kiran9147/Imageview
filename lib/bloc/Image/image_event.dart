@@ -1,4 +1,3 @@
-// lib/bloc/image_event.dart
 part of 'image_bloc.dart';
 
 @immutable

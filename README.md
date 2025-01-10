@@ -1,7 +1,9 @@
 # Flutter Gallery App
 
-This is a Flutter-based gallery app that displays images in a grid view, with zoomable functionality and caching for better performance.
-
+This is a Flutter-based gallery app that displays images in a grid view, with zoomable functionality and caching for better performance and infinite scrolling.
+<img src="flutter_02.png" width=200 style="margin-right: 10px;"> 
+<img src="flutter_03.png" width=200 style="margin-right: 10px;"> 
+<img src="flutter_01.png" width=200>
 ## Features
 
 - Image grid display with pagination.
